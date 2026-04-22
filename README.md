@@ -36,6 +36,9 @@ An AI-powered product management operating system built on **Rumelt's Good Strat
 | `/gtm-plan` | Go-to-market plan |
 | `/metrics-framework` | Leading/lagging KPI framework |
 | `/launch-checklist` | Pre-launch readiness checklist |
+| **Pricing** | |
+| `/pricing-strategy` | Pricing strategy with licensing journey and persona value map |
+| `/competitive-pricing` | Competitive pricing benchmark and TCO analysis |
 | **Research** | |
 | `/extract-document` | Extract text+images from PPT/XLS/PDF |
 | `/extract-insights` | Pull insights from research content |

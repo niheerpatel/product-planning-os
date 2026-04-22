@@ -53,6 +53,15 @@ Plot competitors on two dimensions most relevant to purchase decisions:
 - **Unmet needs**: [What pain points are no competitor addressing well?]
 - **Positioning opportunity**: [Where could we differentiate?]
 
+## Pricing Landscape
+
+| Competitor | Business model | Entry cost | Dev license | Production model | Maintenance |
+|-----------|---------------|-----------|-------------|-----------------|-------------|
+| ... | ... | ... | ... | ... | ... |
+
+**Pricing trends**: [Is the market moving toward subscription? Per-unit royalties? Open-source + services?]
+**Our pricing position**: [Where do we sit — premium, competitive, underpriced?]
+
 ## Competitive Dynamics
 - **Key trend**: [What's changing in the competitive landscape?]
 - **Consolidation risk**: [Any M&A activity or consolidation?]

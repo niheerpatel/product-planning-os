@@ -52,6 +52,15 @@ Create a comprehensive profile of a single competitor. This should be evidence-b
 |------|------|-------------|
 | ... | ... | ... |
 
+## Pricing Model
+- **Business model**: [Subscription / perpetual / hybrid / usage-based]
+- **Entry cost**: [What does it cost to start using their product?]
+- **Dev-phase pricing**: [License structure during development]
+- **Production pricing**: [Runtime / royalty / per-unit model]
+- **Maintenance / support**: [Post-deployment costs]
+- **License scope**: [Per-seat / per-project / per-ECU / unlimited]
+- **Key pricing insight**: [What makes their pricing model notable — aggressive entry, lock-in, bundling, etc.]
+
 ## Implications for Us
 - **Threat level**: High / Medium / Low
 - **Where they beat us**: [Specific areas]

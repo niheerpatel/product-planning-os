@@ -33,6 +33,12 @@ Build a structured GTM plan that turns a product launch into a revenue event.
 |---------|---------|-----------------|-------|----------|
 | ... | ... | ... | ... | ... |
 
+## Pricing & Packaging
+- **Pricing model**: [How the product is priced — subscription, per-unit, project-based]
+- **Entry offer**: [What gets the customer started — free eval, low-cost PoC, trial]
+- **Expansion path**: [How pricing scales as the customer grows — dev licenses → production royalties]
+- **Packaging tiers**: [If applicable — good/better/best or modular bundles]
+
 ## Sales & Partner Enablement
 - **Key talking points**: [3-5 bullets]
 - **Objection handling**: [Top 3 objections and responses]

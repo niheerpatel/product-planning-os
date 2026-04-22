@@ -16,3 +16,5 @@ Then fill in each file with product-specific information.
 | `competitive-landscape.md` | Competitive positioning | During context / ongoing |
 | `discovery-log.md` | Hypotheses and research findings | During Discover phases |
 | `roadmap.md` | Outcome-driven roadmap | After strategy is formulated |
+| `pricing-licensing.md` | Pricing strategy, licensing journey, sales positioning | After competitive landscape |
+| `price-list.md` | Factual price list and rate card (CONFIDENTIAL) | When pricing is defined |
