@@ -1,0 +1,21 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Product-specific data (keep only _template/)
+products/*/
+!products/_template/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE (keep .vscode/ for shared settings)
+*.code-workspace

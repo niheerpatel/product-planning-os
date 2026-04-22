@@ -1,0 +1,14 @@
+{
+  "servers": {
+    "pdf-reader": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-pdf", "--stdio"],
+      "description": "Interactive PDF reading — text extraction, page screenshots, search"
+    },
+    "excel-reader": {
+      "command": "npx",
+      "args": ["-y", "@negokaz/excel-mcp-server"],
+      "description": "Read and query Excel spreadsheet data"
+    }
+  }
+}
