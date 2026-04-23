@@ -128,19 +128,22 @@ def extract_pptx(input_path: str, output_dir: str) -> str:
 
             # Extract embedded high-res images (skip tiny icons)
             if shape.shape_type == MSO_SHAPE_TYPE.PICTURE:
-                image = shape.image
-                blob = image.blob
-                if len(blob) >= MIN_IMAGE_SIZE:
-                    embedded_count += 1
-                    ext = image.content_type.split("/")[-1]
-                    if ext == "jpeg":
-                        ext = "jpg"
-                    image_name = f"slide{slide_num}_embed{embedded_count}.{ext}"
-                    image_path = images_dir / image_name
-                    with open(image_path, "wb") as f:
-                        f.write(blob)
-                    alt_text = shape.name or f"Embedded image from slide {slide_num}"
-                    md_lines.append(f"\n![{alt_text}](./images/{image_name})\n")
+                try:
+                    image = shape.image
+                    blob = image.blob
+                    if len(blob) >= MIN_IMAGE_SIZE:
+                        embedded_count += 1
+                        ext = image.content_type.split("/")[-1]
+                        if ext == "jpeg":
+                            ext = "jpg"
+                        image_name = f"slide{slide_num}_embed{embedded_count}.{ext}"
+                        image_path = images_dir / image_name
+                        with open(image_path, "wb") as f:
+                            f.write(blob)
+                        alt_text = shape.name or f"Embedded image from slide {slide_num}"
+                        md_lines.append(f"\n![{alt_text}](./images/{image_name})\n")
+                except (ValueError, AttributeError):
+                    pass  # Shape typed as PICTURE but has no embedded image data
 
         # Extract speaker notes
         if slide.has_notes_slide:

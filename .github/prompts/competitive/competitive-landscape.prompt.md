@@ -53,6 +53,32 @@ Plot competitors on two dimensions most relevant to purchase decisions:
 - **Unmet needs**: [What pain points are no competitor addressing well?]
 - **Positioning opportunity**: [Where could we differentiate?]
 
+## Cross-Domain Coverage Map (if product spans multiple verticals)
+> Use when a product addresses the same core problem across different industries/domains.
+
+| Competitor | [Domain 1] | [Domain 2] | [Domain 3] | [Domain 4] | [Domain 5] |
+|-----------|-----------|-----------|-----------|-----------|-----------|
+| ... | ✅/❌ | ✅/❌ | ✅/❌ | ✅/❌ | ✅/❌ |
+
+**Cross-domain gap**: [Which combination of domains is no single competitor covering?]
+
+## Market Segment Tiers (if product has multi-segment opportunity)
+> Categorize segments by readiness and strategic fit to prioritize where to compete.
+
+| Tier | Segment | Maturity | Our fit | Priority rationale |
+|------|---------|---------|---------|-------------------|
+| **Tier 1: Core** | [Segments where we compete today] | ... | ... | ... |
+| **Tier 2: Adjacent** | [Segments we could enter with existing capabilities] | ... | ... | ... |
+| **Tier 3: Stretch** | [Segments that require new capabilities or partnerships] | ... | ... | ... |
+| **Tier 4: Watch** | [Segments to monitor but not pursue now] | ... | ... | ... |
+
+## Application Category Matrix (optional — for platform/middleware products)
+> When competitors serve different application types, map who does what.
+
+| Competitor | [App Type 1] | [App Type 2] | [App Type 3] | [App Type 4] |
+|-----------|-------------|-------------|-------------|-------------|
+| ... | ... | ... | ... | ... |
+
 ## Pricing Landscape
 
 | Competitor | Business model | Entry cost | Dev license | Production model | Maintenance |
