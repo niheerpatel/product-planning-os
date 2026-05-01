@@ -84,3 +84,5 @@ User Level (global)         → Writing, formatting, legal standards
 
 - [Good Strategy / Bad Strategy](frameworks/good-strategy-bad-strategy/README.md) — Rumelt's kernel
 - [Productside Lifecycle](frameworks/productside/README.md) — Context → Discover → Define → Create → Deliver → Iterate
+- [McKinsey Three Horizons](frameworks/mckinsey-3-horizons/README.md) — Baghai/Coley/White portfolio model for simultaneous growth management
+- [S-Curve (Technology Adoption)](frameworks/s-curve/README.md) — Rogers/Foster diffusion and innovation curve, with curve-jumping strategy
