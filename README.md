@@ -1,6 +1,6 @@
 # Product Planning OS
 
-An AI-powered product management operating system built on **Rumelt's Good Strategy** framework and the **Productside** product lifecycle. Designed as the shared hub in a multi-root VS Code workspace.
+An AI-powered product management operating system for structured strategy, discovery, and competitive work. Built on four frameworks: **Rumelt's Good Strategy** kernel, the **Productside** product lifecycle, the **McKinsey Three Horizons** portfolio model, and the **S-Curve** technology adoption model. Designed as the shared hub in a multi-root VS Code workspace.
 
 ## Quick Start
 
