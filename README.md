@@ -63,11 +63,30 @@ An AI-powered product management operating system for structured strategy, disco
 | `/writing-style` | Apply professional PM writing style |
 | `/copyright-notice` | Insert copyright notice |
 
+## Skills Directory
+
+This repo uses a vendor-neutral `skills/` directory for reusable AI capabilities.
+
+- `skills/` is the primary home for skill definitions when using VS Code with non-GitHub models.
+- `.github/skills/` is still available for GitHub Copilot Chat compatibility.
+- Skills are organized by Productside phase:
+  - `skills/context/`
+  - `skills/discover/`
+  - `skills/define/`
+  - `skills/create/`
+  - `skills/deliver/`
+  - `skills/iterate/`
+
+Use `skills/` for reusable model capabilities, `prompts/` for slash-command templates, and `agents/` for multi-step workflows.
+
 ## Workspace Architecture
 
 ```
 User Level (global)         → Writing, formatting, legal standards
   └── product-planning-os   → PM frameworks, agents, skills, prompts
+        ├── skills/               → Vendor-neutral AI skill definitions
+        ├── prompts/              → Slash commands and prompt templates
+        ├── agents/               → Workflow roles and guided sequences
         ├── competitive-analysis  → Product competitive intelligence
         └── sample-product-data   → Raw and processed research data
 ```
