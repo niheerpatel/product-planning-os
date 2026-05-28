@@ -29,6 +29,7 @@ Skills are organized by Productside lifecycle phase:
 ```
 skills/
   context/
+    customer-profile/SKILL.md
     market-research/SKILL.md
     document-extraction/SKILL.md
   discover/

@@ -21,6 +21,7 @@ An AI-powered product management operating system for structured strategy, disco
 | `/strategy-kernel` | Full strategy kernel in one pass |
 | `/strategy-review` | Detect bad strategy hallmarks |
 | **Discovery** | |
+| `/customer-profile` | Build an evidence-based profile for a target account or segment |
 | `/customer-interview-guide` | Generate interview scripts |
 | `/hypothesis-tracker` | Track and evaluate hypotheses |
 | `/opportunity-assessment` | Score opportunities |

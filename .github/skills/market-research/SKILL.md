@@ -13,6 +13,7 @@ Conduct structured, evidence-based market research with clear source attribution
 - Investigating industry trends
 - Understanding customer segments
 - Evaluating market dynamics and entry barriers
+- Comparing competitors where level of technology investment affects execution speed or defensibility
 
 ## Procedure
 
@@ -40,6 +41,12 @@ Organize research into the standard output format below. For every data point:
 - Cite the source with date
 - Rate confidence (High/Medium/Low)
 - Label as Evidence or Inference
+
+When competitors are part of the analysis, include a technology investment assessment:
+- Identify company-level and product-level investment signals (funding rounds, R&D spend, acquisition cadence, hiring scale, infrastructure buildout, program-level budget where available)
+- Separate audited/disclosed values from estimates
+- Add a comparability caveat if one firm has company-level data and another only has program-level data
+- Assign an investment level rating (e.g., Low / Moderate / High / Very High) with confidence
 
 ### Step 5: Identify Gaps
 What couldn't you find? What requires primary research? What assumptions need validation?
@@ -72,6 +79,11 @@ What couldn't you find? What requires primary research? What assumptions need va
 | Segment | Size | Pain points | Willingness to pay | Our fit |
 |---------|------|------------|--------------------|---------| 
 | ... | ... | ... | ... | ... |
+
+## Technology Investment Assessment (for competitive analyses)
+| Company | Investment signal | Scope (Company or Product) | Evidence type | Investment level | Confidence | Comparability caveat |
+|---------|-------------------|----------------------------|---------------|------------------|------------|----------------------|
+| ... | ... | ... | Audited / Disclosed / Estimated | ... | ... | ... |
 
 ## Research Gaps
 - [What we still don't know and how to find out]
