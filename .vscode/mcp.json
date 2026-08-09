@@ -9,6 +9,11 @@
       "command": "npx",
       "args": ["-y", "@negokaz/excel-mcp-server"],
       "description": "Read and query Excel spreadsheet data"
+    },
+    "granola": {
+      "type": "http",
+      "url": "https://mcp.granola.ai/mcp",
+      "description": "Granola meeting notes MCP server"
     }
   }
 }
