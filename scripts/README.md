@@ -26,7 +26,7 @@ This directory contains reusable Python scripts for extracting and converting bu
 3. Output will be saved in the specified output directory or file.
 
 ## Integration
-- These scripts are referenced by skills such as `skills/context/document-extraction/SKILL.md`.
+- These scripts are referenced by skills such as `.github/skills/context/document-extraction/SKILL.md`.
 - You can use them standalone or as part of a workflow with prompts and agents.
 
 ## Platform Notes

@@ -8,9 +8,9 @@ __pycache__/
 *.pyc
 *.pyo
 
-# Product-specific data (keep only _template/)
-products/*/
-!products/_template/
+# All product-specific working data — lives locally only, never committed
+# Use product-template/ at the repo root as the starting template
+products/
 
 # OS files
 .DS_Store

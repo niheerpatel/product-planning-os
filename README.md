@@ -64,37 +64,29 @@ An AI-powered product management operating system for structured strategy, disco
 | `/writing-style` | Apply professional PM writing style |
 | `/copyright-notice` | Insert copyright notice |
 
-## Skills Directory
+## AI Tooling
 
-This repo uses a vendor-neutral `skills/` directory for reusable AI capabilities.
+All AI tooling (skills, prompts, agents) lives under `.github/` where GitHub Copilot reads them natively.
 
-- `skills/` is the primary home for skill definitions when using VS Code with non-GitHub models.
-- `.github/skills/` is still available for GitHub Copilot Chat compatibility.
-- Skills are organized by Productside phase:
-  - `skills/context/`
-  - `skills/discover/`
-  - `skills/define/`
-  - `skills/create/`
-  - `skills/deliver/`
-  - `skills/iterate/`
-
-Use `skills/` for reusable model capabilities, `prompts/` for slash-command templates, and `agents/` for multi-step workflows.
+- `.github/skills/` — Reusable capability definitions, organized by Productside phase
+- `.github/prompts/` — Slash command templates, organized by domain
+- `.github/agents/` — Multi-step workflow agents (`Strategist`, `Researcher`, `Discovery`, `Planner`, `Reviewer`)
 
 ## Workspace Architecture
 
 ```
 User Level (global)         → Writing, formatting, legal standards
   └── product-planning-os   → PM frameworks, agents, skills, prompts
-        ├── skills/               → Vendor-neutral AI skill definitions
-        ├── prompts/              → Slash commands and prompt templates
-        ├── agents/               → Workflow roles and guided sequences
+        ├── .github/skills/       → AI skill definitions by lifecycle phase
+        ├── .github/prompts/      → Slash commands and prompt templates
+        ├── .github/agents/       → Workflow roles and guided sequences
         ├── competitive-analysis  → Product competitive intelligence
         └── sample-product-data   → Raw and processed research data
 ```
 
 ## Adding a New Product
 
-1. Copy `products/_template/` to `products/<product-name>/`
+1. Copy `product-template/` to `products/<product-name>/`
 2. Copy `competitive-analysis/_template/` to `competitive-analysis/<product-name>/`
 3. Copy `sample-product-data/_template/` to `sample-product-data/<product-name>/`
 4. Start with `product-context.md` — fill in market, customers, constraints

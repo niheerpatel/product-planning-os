@@ -39,20 +39,20 @@ Note: PPTX/Excel chart rendering requires Windows with Office installed. All scr
 - `mckinsey-3-horizons/` — Portfolio model for simultaneous growth management
 - `s-curve/` — Rogers/Foster technology adoption and curve-jumping strategy
 
-**2. Skills** (`skills/`) — Vendor-neutral reusable AI capability definitions, organized by Productside phase: `context/`, `discover/`, `define/`, `create/`, `deliver/`, `iterate/`. `.github/skills/` mirrors these for GitHub Copilot Chat compatibility.
+**2. Skills** (`.github/skills/`) — Reusable AI capability definitions, organized by Productside phase (`context/`, `discover/`, `define/`, `create/`, `deliver/`, `iterate/`) plus top-level Copilot-registered skills (`customer-profile/`, `extract-document/`, `market-research/`).
 
-**3. Prompts** (`prompts/`) — Slash command templates for direct invocation. Organized by domain: `strategy/`, `competitive/`, `discovery/`, `planning/`, `delivery/`, `pricing/`, `extraction/`.
+**3. Prompts** (`.github/prompts/`) — Slash command templates for direct invocation. Organized by domain: `strategy/`, `competitive/`, `discovery/`, `planning/`, `delivery/`, `pricing/`, `extraction/`.
 
-**4. Agents** (`agents/`) — Multi-step workflow definitions that chain skills and prompts into guided sequences. The five agents are: `Strategist`, `Researcher`, `Discovery`, `Planner`, `Reviewer`.
+**4. Agents** (`.github/agents/`) — Multi-step workflow definitions that chain skills and prompts into guided sequences. The five agents are: `Strategist`, `Researcher`, `Discovery`, `Planner`, `Reviewer`.
 
 ### Product Data
 
-`products/` holds per-product working documents. Each product folder uses the `_template/` structure:
+`products/` holds per-product working documents. Each product folder uses the `product-template/` structure:
 - `product-context.md` — market, customers, constraints (fill this first)
 - `strategy-kernel.md` — current diagnosis, guiding policy, coherent actions
 - `roadmap.md`, `discovery-log.md`, `competitive-landscape.md`, `pricing-licensing.md`
 
-Product-specific data is gitignored (`products/*/`); only `_template/` is committed.
+Product-specific data is gitignored (`products/`); the template lives at `product-template/` at the repo root.
 
 ### VS Code MCP Servers
 
